@@ -5,6 +5,10 @@ var controller = new ScrollMagic.Controller();
 // OPENING SECTION //
 var tween = new TimelineMax ()
 	.add([
+		TweenMax.fromTo(".port", 1, {scale: 1, autoAlpha: 1, top: 0}, {left: 1000, ease: Linear.easeNone}),
+		TweenMax.fromTo(".linkd", 1, {scale: 1, autoAlpha: 1, top: 0}, {left: 1000, ease: Linear.easeNone}),
+		TweenMax.fromTo(".fb", 1, {scale: 1, autoAlpha: 1, top: 0}, {left: 1000, ease: Linear.easeNone}),
+
 		TweenMax.fromTo(".zelda", 1, {scale: 1, autoAlpha: 1, top: 1}, {top: -1000, ease: Linear.easeNone}),
 		TweenMax.fromTo(".flisiuk", 1, {scale: 1, autoAlpha: 1, top: 0}, {top: -3000, ease:Linear.easeNone}),
     TweenMax.fromTo(".tree-square", 1, {scale: 1, autoAlpha: 1, top: 1}, {top: 1000, ease:Linear.easeNone}),

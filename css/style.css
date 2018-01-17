@@ -53,6 +53,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  max-width: 100%;
+    overflow-x: hidden;
 }
 html{
   height: 100%;
@@ -172,6 +174,26 @@ h4 {
                   margin-left: 70%;
               }
               /******************************************/
+
+.port {
+  position: absolute;
+  width: 41px;
+  margin-top: 310px;
+  margin-left: 95.4%;
+}
+.linkd {
+  position: absolute;
+  width: 25px;
+  margin-top: 360px;
+  margin-left: 95.9%;
+}
+.fb {
+  position: absolute;
+  width: 30px;
+  margin-top: 400px;
+  margin-left: 95.79%;
+}
+
 .text {
   position: absolute;
   width: 150px;
@@ -333,7 +355,7 @@ h4 {
 
 .h3-3 {
   margin-top: 5000px;
-  color: #484342;
+  color: #3188ff;
   z-index: 3;
 }
 
@@ -385,7 +407,7 @@ h4 {
 
 .h3-4 {
   margin-top: 6900px;
-  color: #484342;
+  color: #f8437e;
   z-index: 3;
 }
 
@@ -457,7 +479,7 @@ h4 {
 .h3-5 {
   margin-top: 8870px;
   z-index: 3;
-  color: #484342;
+  color: #cb1378;
 }
 
 .fifth-look-1 {
