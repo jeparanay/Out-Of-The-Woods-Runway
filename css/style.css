@@ -176,22 +176,25 @@ h4 {
               /******************************************/
 
 .port {
-  position: absolute;
-  width: 41px;
+  position: fixed;
+  width: 36px;
   margin-top: 310px;
-  margin-left: 95.4%;
+  margin-left: 95.3%;
+  z-index: 4;
 }
 .linkd {
-  position: absolute;
-  width: 25px;
+  position: fixed;
+  width: 20px;
   margin-top: 360px;
   margin-left: 95.9%;
+  z-index: 4;
 }
 .fb {
-  position: absolute;
-  width: 30px;
+  position: fixed;
+  width: 25px;
   margin-top: 400px;
   margin-left: 95.79%;
+  z-index: 4;
 }
 
 .text {
