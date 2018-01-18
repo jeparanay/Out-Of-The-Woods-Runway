@@ -24,7 +24,7 @@ var tween = new TimelineMax ()
 	]);
 
 	// build scene
-	var scene1 = new ScrollMagic.Scene({triggerElement: ".header",duration: 6000})
+	var scene1 = new ScrollMagic.Scene({triggerElement: ".fb",duration: 6000})
 					.setTween(tween)
 					.addTo(controller);
 
