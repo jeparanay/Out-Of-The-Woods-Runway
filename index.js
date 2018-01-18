@@ -1,6 +1,12 @@
 $(document).ready(function(){
+
+
 // init ScrollMagic Controller
 var controller = new ScrollMagic.Controller();
+
+
+
+
 
 // OPENING SECTION //
 var tween = new TimelineMax ()
@@ -21,6 +27,15 @@ var tween = new TimelineMax ()
 	var scene1 = new ScrollMagic.Scene({triggerElement: "first-look",duration: 6000})
 					.setTween(tween)
 					.addTo(controller);
+
+
+
+
+
+
+
+
+
 
 
 // FIRST LOOK SECTION //
@@ -100,6 +115,10 @@ var scene6 = new ScrollMagic.Scene({
 
 
 
+
+
+
+
 // THIRD LOOK SECTION //
 var scene5 = new ScrollMagic.Scene({
   triggerElement: ".third-look-background", // point of execution
@@ -132,6 +151,9 @@ var tween = new TimelineMax ()
 	})
 	.setPin(".h3-3") // the element we want to pin
 	.addTo(controller);
+
+
+
 
 
 
@@ -171,6 +193,15 @@ var tween = new TimelineMax ()
 		.setPin(".h3-4") // the element we want to pin
 		.addTo(controller);
 
+
+
+
+
+
+
+
+
+
 // FIFTH LOOK SECTION //
 		var scene5 = new ScrollMagic.Scene({
 			triggerElement: ".fifth-look-background", // point of execution
@@ -204,7 +235,4 @@ var tween = new TimelineMax ()
 			})
 			.setPin(".h3-5") // the element we want to pin
 			.addTo(controller);
-
-
-
 });
