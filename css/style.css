@@ -148,6 +148,7 @@ h3 {
 .h3-1 {
   margin-top: 870px;
   z-index: 3;
+  width: 100px;
 }
 
 h4 {
@@ -321,6 +322,7 @@ h4 {
 .h3-2 {
   margin-top: 2900px;
   z-index: 3;
+  width: 100px;
 }
 
 .video-2 {
@@ -360,6 +362,7 @@ h4 {
   margin-top: 5000px;
   color: #3188ff;
   z-index: 3;
+  width: 100px;
 }
 
 .third-look-1 {
@@ -412,6 +415,7 @@ h4 {
   margin-top: 6900px;
   color: #f8437e;
   z-index: 3;
+  width: 100px;
 }
 
 .fourth-look-background {
@@ -483,6 +487,7 @@ h4 {
   margin-top: 8870px;
   z-index: 3;
   color: #cb1378;
+  width: 100px;
 }
 
 .fifth-look-1 {
@@ -530,6 +535,7 @@ h4 {
 .h3-final {
   margin-top: 10760px;
   color: black;
+  width: 200px;
 }
 
 .end-runway {
