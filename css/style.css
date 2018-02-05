@@ -558,8 +558,316 @@ h4 {
 
 }
 
-
-
 .music{
   margin-top: 800px;
+}
+
+
+/******************************************
+/* START MEDIA QUERIES
+/*******************************************/
+@media only screen and (max-width : 1400px) {
+  h1 {
+    left: 28%;
+    margin-top: 6%;
+  }
+
+  p {
+    left: 28%;
+    margin-top: 18%;
+    width: 600px;
+  }
+  .zelda {
+    left: 7%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 19%;
+    margin-top: 5%;
+  }
+
+  .tree-square {
+    left: 15%;
+    margin-top: -13%;
+  }
+
+  .logo {
+    right: 6%;
+  }
+
+}
+@media only screen and (max-width : 1215px) {
+
+/* Header */
+  h1 {
+    left: 31%;
+    margin-top: 6%;
+  }
+
+  p {
+    left: 31%;
+    margin-top: 18%;
+    width: 600px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 23%;
+    margin-top: 6%;
+  }
+
+  .tree-square {
+    left: 17%;
+    margin-top: -13%;
+  }
+
+  .logo {
+    right: 6%;
+  }
+
+/* Header */
+
+}
+
+
+
+@media only screen and (max-width : 1065px) {
+
+/* Header */
+  h1 {
+    left: 35%;
+    margin-top: 12%;
+  }
+
+  p {
+    left: 35%;
+    margin-top: 25%;
+    width: 500px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 25%;
+    margin-top: 7%;
+  }
+
+  .tree-square {
+    left: 17%;
+    margin-top: -13%;
+  }
+
+/* Header */
+
+}
+
+@media only screen and (max-width : 880px) {
+
+/* Header */
+  h1 {
+    left: 35%;
+    margin-top: 20%;
+  }
+
+  h2 {
+    font-size: 120px;
+  }
+
+  p {
+    left: 35%;
+    margin-top: 35%;
+    width: 390px;
+    font-size: 16px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 25%;
+    margin-top: 15%;
+  }
+
+  .tree-square {
+    left: 18%;
+    margin-top: -13%;
+  }
+
+  .logo {
+    width:20%;
+  }
+  .port {
+    width: 36px;
+    margin-left: 94%;
+  }
+  .linkd {
+    margin-left: 95%;
+  }
+  .fb {
+    margin-left: 94.8%;
+  }
+
+/* Header */
+
+}
+
+
+@media only screen and (max-width : 700px) {
+
+/* Header */
+  h1 {
+    left: 35%;
+    margin-top: 22%;
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 100px;
+  }
+
+  p {
+    left: 35%;
+    margin-top: 35%;
+    width: 270px;
+    font-size: 15px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 25%;
+    margin-top: 20%;
+  }
+
+  .tree-square {
+    left: 18%;
+    margin-top: -13%;
+    width: 250px;
+  }
+
+  .logo {
+    width:28%;
+  }
+
+/* Header */
+
+}
+
+
+@media only screen and (max-width : 575px) {
+
+/* Header */
+  h1 {
+    left: 40%;
+    margin-top: 28%;
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 90px;
+  }
+
+  p {
+    left: 40%;
+    margin-top: 43%;
+    width: 230px;
+    font-size: 16px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 27%;
+    margin-top: 20%;
+  }
+
+  .tree-square {
+    left: 25%;
+    margin-top: -13%;
+    width: 240px;
+  }
+
+  .logo {
+    width:25%;
+    right: 12%;
+  }
+
+  .port {
+    width: 36px;
+    margin-top: 610px;
+    margin-left: 89%;
+  }
+  .linkd {
+    margin-top: 660px;
+    margin-left: 90.8%;
+  }
+  .fb {
+    margin-top: 700px;
+    margin-left: 90.1%;
+  }
+
+/* Header */
+
+}
+
+@media only screen and (max-width : 450px) {
+
+/* Header */
+  h1 {
+    left: 37%;
+    margin-top: 34.5%;
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 80px;
+  }
+
+  p {
+    left: 37%;
+    margin-top: 50%;
+    width: 230px;
+    font-size: 15px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 27%;
+    margin-top: 20%;
+  }
+
+  .tree-square {
+    left: 25%;
+    margin-top: -13%;
+    width: 200px;
+  }
+
+  .logo {
+    width:25%;
+    right: 12%;
+  }
+
+  .port {
+    width: 36px;
+    margin-top: 610px;
+    margin-left: 89%;
+  }
+  .linkd {
+    margin-top: 660px;
+    margin-left: 90.8%;
+  }
+  .fb {
+    margin-top: 700px;
+    margin-left: 90.1%;
+  }
+
+/* Header */
+
 }
