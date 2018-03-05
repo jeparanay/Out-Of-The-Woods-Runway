@@ -953,14 +953,17 @@ h4 {
 
     .h3-final {
       margin-top: 9530px;
+      display: none;
     }
 
     .all-looks {
       margin-top: 9570px;
+      display: none;
 
     }
     .video-end-runway {
       margin-top: 10317px;
+      display: none;
     }
 }
 
