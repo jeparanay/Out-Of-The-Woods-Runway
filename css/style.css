@@ -51,8 +51,6 @@ body {
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
   height: 100%;
-  margin: 0;
-  padding: 0;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -224,6 +222,7 @@ h4 {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  z-index: -2;
 }
 
 .first-look-1, .first-look-2, .first-look-3 {
@@ -250,7 +249,7 @@ h4 {
 .first-look-3 {
   right: 6%;
   width: 25%;
-  margin-top: 725px;
+  margin-top: 425px;
   box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -275,12 +274,13 @@ h4 {
 .second-look {
   position: relative;
   width: 100%;
+  top: 0px;
 }
 .pink {
   position: absolute;
-  margin-top: 2300px;
   width: 100%;
-  z-index: -3;
+  z-index: -1;
+  top: 2500px;
 }
 
 .second-look-background {
@@ -524,7 +524,7 @@ h4 {
 
 .video-5 {
   position: absolute;
-  margin-top: 9900px;
+  margin-top: 9800px;
   z-index: 1;
 }
 
@@ -533,7 +533,7 @@ h4 {
 /*******************************************/
 
 .h3-final {
-  margin-top: 10760px;
+  margin-top: 10630px;
   color: black;
   width: 200px;
 }
@@ -554,18 +554,19 @@ h4 {
 
 .video-end-runway {
   position: absolute;
-  margin-top: 11415px;
-
+  margin-top: 11418px;
 }
 
 .music{
   margin-top: 800px;
+  z-index: -5;
 }
 
 
 /******************************************
 /* START MEDIA QUERIES
 /*******************************************/
+
 @media only screen and (max-width : 1400px) {
   h1 {
     left: 28%;
@@ -593,6 +594,10 @@ h4 {
 
   .logo {
     right: 6%;
+  }
+
+  .second-look {
+    top: -50px;
   }
 
 }
@@ -627,8 +632,52 @@ h4 {
     right: 6%;
   }
 
-/* Header */
+/* second look */
+  .second-look {
+    top: -150px;
+  }
+  .second-look .h3-2 {
+    margin-top: 2910px;
+  }
+/* Third look */
+  .h3-final {
+    margin-top: 10580px;
+  }
 
+  .third-look .third-look-background {
+    margin-top: 4450px;
+  }
+  .third-look .h3-3 {
+    margin-top: 4790px;
+  }
+
+  .fourth-look .h3-4 {
+    margin-top: 6850px;
+  }
+  .fourth-look .fourth-look-background {
+    margin-top: 6500px;
+  }
+
+  .fifth-look .h3-5 {
+    margin-top: 8670px;
+  }
+  .fifth-look .fifth-look-background {
+    margin-top: 8180px;
+  }
+  .video-5 {
+    margin-top: 9700px;
+  }
+
+  .h3-final {
+    margin-top: 10430px;
+  }
+
+  .all-looks {
+    margin-top: 10370px;
+  }
+  .video-end-runway {
+    margin-top: 11118px;
+  }
 }
 
 
@@ -660,7 +709,100 @@ h4 {
     margin-top: -13%;
   }
 
-/* Header */
+/* first look */
+  .first-look-3 {
+    width: 30%;
+    margin-top: 440px;
+  }
+
+/* second look */
+  .second-look {
+    top: -230px;
+  }
+  .first-look-1 {
+    width: 35%;
+  }
+
+  /* Third look */
+    .h3-final {
+      margin-top: 10580px;
+    }
+
+    .third-look .third-look-background {
+      margin-top: 4450px;
+    }
+    .third-look .h3-3 {
+      margin-top: 4790px;
+    }
+    .third-look .third-look-1 {
+      margin-top: 4730px;
+    }
+    .third-look .third-look-2 {
+      margin-top: 4800px;
+    }
+    .third-look .third-look-3 {
+      margin-top: 4800px;
+    }
+    .video-3 {
+      margin-top: 5700px;
+    }
+
+
+    .fourth-look .h3-4 {
+      margin-top: 6650px;
+    }
+    .fourth-look .fourth-look-background {
+      margin-top: 6070px;
+    }
+    .fourth-look-1 {
+      margin-top: 6770px;
+    }
+    .fourth-look-2 {
+      margin-top: 6870px;
+    }
+    .fourth-look-3 {
+      margin-top: 6770px;
+    }
+    .fourth-look-4 {
+      margin-top: 6870px;
+    }
+    .video-4 {
+      margin-top: 7550px;
+    }
+
+    .fifth-look .h3-5 {
+      margin-top: 8570px;
+    }
+    .fifth-look .fifth-look-background {
+      margin-top: 7880px;
+    }
+    .fifth-look-1 {
+      margin-top: 8900px;
+    }
+    .fifth-look-2 {
+      margin-top: 8900px;
+    }
+    .fifth-look-3 {
+      margin-top: 8900px;
+    }
+    .fifth-look-4 {
+      margin-top: 8900px;
+    }
+    .video-5 {
+      margin-top: 9400px;
+    }
+
+    .h3-final {
+      margin-top: 10030px;
+    }
+
+    .all-looks {
+      margin-top: 10070px;
+
+    }
+    .video-end-runway {
+      margin-top: 10817px;
+    }
 
 }
 
@@ -709,9 +851,117 @@ h4 {
   .fb {
     margin-left: 94.8%;
   }
+/* first look */
+  .first-look-1 {
+    width: 40%;
+    margin-top: 950px;
+  }
+  .first-look-2 {
+    width: 45%;
+    margin-top: 800px;
+  }
+  .first-look-3 {
+    width: 40%;
+    margin-top: 300px;
+  }
 
-/* Header */
+/* second look */
+  .second-look {
+    top: -300px;
+  }
 
+  /* Third look */
+    .h3-final {
+      margin-top: 10580px;
+    }
+
+    .third-look .third-look-background {
+      margin-top: 4050px;
+    }
+    .third-look .h3-3 {
+      margin-top: 4490px;
+    }
+    .third-look .third-look-1 {
+      margin-top: 4730px;
+      width: 35%;
+    }
+    .third-look .third-look-2 {
+      margin-top: 4500px;
+      width: 35%;
+    }
+    .third-look .third-look-3 {
+      margin-top: 4800px;
+      width: 35%;
+    }
+    .video-3 {
+      margin-top: 5470px;
+    }
+
+
+    .fourth-look .h3-4 {
+      margin-top: 6050px;
+    }
+    .fourth-look .fourth-look-background {
+      margin-top: 5570px;
+    }
+    .fourth-look-1 {
+      margin-top: 6570px;
+      width: 25%;
+    }
+    .fourth-look-2 {
+      margin-top: 6670px;
+      width: 25%;
+      left: 26%;
+    }
+    .fourth-look-3 {
+      margin-top: 6570px;
+      width: 25%;
+      left: 49%;
+    }
+    .fourth-look-4 {
+      margin-top: 6670px;
+      width: 25%;
+    }
+    .video-4 {
+      margin-top: 7050px;
+    }
+
+    .fifth-look .h3-5 {
+      margin-top: 8000px;
+    }
+    .fifth-look .fifth-look-background {
+      margin-top: 7480px;
+    }
+    .fifth-look-1 {
+      margin-top: 7900px;
+      width: 30%;
+    }
+    .fifth-look-2 {
+      margin-top: 8100px;
+    }
+    .fifth-look-3 {
+      margin-top: 8500px;
+      width: 40%;
+    }
+    .fifth-look-4 {
+      margin-top: 8900px;
+      width: 40%;
+    }
+    .video-5 {
+      margin-top: 9000px;
+    }
+
+    .h3-final {
+      margin-top: 9530px;
+    }
+
+    .all-looks {
+      margin-top: 9570px;
+
+    }
+    .video-end-runway {
+      margin-top: 10317px;
+    }
 }
 
 
@@ -728,6 +978,9 @@ h4 {
     font-size: 100px;
   }
 
+  h3 {
+    left: 3%;
+  }
   p {
     left: 35%;
     margin-top: 35%;
@@ -753,7 +1006,139 @@ h4 {
     width:28%;
   }
 
-/* Header */
+/* first look */
+  .first-look .h3-1{
+    top: -80px;
+  }
+
+  .first-look-1 {
+    width: 50%;
+    margin-top: 950px;
+  }
+  .first-look-2 {
+    width: 55%;
+    margin-top: 800px;
+  }
+  .first-look-3 {
+    width: 50%;
+    margin-top: 300px;
+  }
+
+/* second look */
+  .second-look-background {
+    object-position: 20% 80%;
+  }
+
+  .second-look {
+    top: -400px;
+  }
+  .second-look-1 {
+    left: 10%;
+    width: 45%;
+  }
+  .second-look-2 {
+    left: 45%;
+    width: 45%;
+    margin-top:3200px;
+  }
+  .second-look-3 {
+    left: 15%;
+    width: 45%;
+  }
+
+  /* Third look */
+    .h3-final {
+      margin-top: 10580px;
+    }
+
+    .third-look .third-look-background {
+      margin-top: 3850px;
+    }
+    .third-look .h3-3 {
+      margin-top: 4290px;
+    }
+    .third-look .third-look-1 {
+      margin-top: 4630px;
+      width: 40%;
+    }
+    .third-look .third-look-2 {
+      margin-top: 4200px;
+      width: 40%;
+    }
+    .third-look .third-look-3 {
+      margin-top: 4850px;
+      width: 40%;
+    }
+    .video-3 {
+      margin-top: 5370px;
+    }
+
+
+    .fourth-look .h3-4 {
+      margin-top: 5800px;
+    }
+    .fourth-look .fourth-look-background {
+      margin-top: 5370px;
+    }
+    .fourth-look-1 {
+      margin-top: 6300px;
+      width: 30%;
+    }
+    .fourth-look-2 {
+      margin-top: 6220px;
+      width: 30%;
+      left: 23%;
+    }
+    .fourth-look-3 {
+      margin-top: 6500px;
+      width: 30%;
+      left: 45%;
+    }
+    .fourth-look-4 {
+      margin-top: 6470px;
+      width: 30%;
+    }
+    .video-4 {
+      margin-top: 6900px;
+    }
+
+    .fifth-look .h3-5 {
+      margin-top: 7600px;
+    }
+    .fifth-look .fifth-look-background {
+      margin-top: 7080px;
+    }
+    .fifth-look-1 {
+      margin-top: 7700px;
+      width: 40%;
+    }
+    .fifth-look-2 {
+      margin-top: 7800px;
+      width: 40%
+    }
+    .fifth-look-3 {
+      margin-top: 8350px;
+      width: 40%;
+    }
+    .fifth-look-4 {
+      margin-top: 8600px;
+      width: 40%;
+    }
+    .video-5 {
+      margin-top: 8630px;
+    }
+
+    .h3-final {
+      margin-top: 9030px;
+    }
+
+    .all-looks {
+      margin-top: 9070px;
+
+    }
+    .video-end-runway {
+      margin-top: 9817px;
+    }
 
 }
 
@@ -769,6 +1154,10 @@ h4 {
 
   h2 {
     font-size: 90px;
+  }
+
+  h3 {
+    display: none;
   }
 
   p {
@@ -810,8 +1199,124 @@ h4 {
     margin-top: 700px;
     margin-left: 90.1%;
   }
+  /* second look */
+    .pink{
+      top: 2600px;
+    }
+    .second-look {
+      top: -470px;
+    }
+    .second-look-1 {
+      left: 10%;
+      width: 65%;
+    }
+    .second-look-2 {
+      left: 30%;
+      width: 60%;
+    }
+    .second-look-3 {
+      left: 10%;
+      width: 65%;
+      margin-top: 3100px;
+    }
 
-/* Header */
+    /* Third look */
+      .h3-final {
+        margin-top: 10580px;
+      }
+
+      .third-look .third-look-background {
+        margin-top: 3850px;
+      }
+
+      .third-look .third-look-1 {
+        margin-top: 4630px;
+        width: 50%;
+      }
+      .third-look .third-look-2 {
+        margin-top: 4000px;
+        width: 50%;
+      }
+      .third-look .third-look-3 {
+        margin-top: 4850px;
+        width: 50%;
+      }
+      .video-3 {
+        margin-top: 5370px;
+      }
+
+
+      .fourth-look .h3-4 {
+        margin-top: 5800px;
+      }
+      .fourth-look .fourth-look-background {
+        margin-top: 5370px;
+      }
+      .fourth-look-1 {
+        margin-top: 6330px;
+        width: 43%;
+        left: 5%;
+      }
+      .fourth-look-2 {
+        margin-top: 6120px;
+        width: 43%;
+        left: 5%;
+      }
+      .fourth-look-3 {
+        margin-top: 6500px;
+        width: 43%;
+        right: 5%;
+        left: auto;
+      }
+      .fourth-look-4 {
+        margin-top: 6230px;
+        width: 43%;
+        right: 5%;
+      }
+      .video-4 {
+        margin-top: 6900px;
+      }
+
+      .fifth-look .h3-5 {
+        margin-top: 7600px;
+      }
+      .fifth-look .fifth-look-background {
+        margin-top: 7080px;
+      }
+      .fifth-look-1 {
+        margin-top: 7450px;
+        width: 60%;
+      }
+      .fifth-look-2 {
+        margin-top: 7700px;
+        width: 60%;
+        left: 10%;
+      }
+      .fifth-look-3 {
+        margin-top: 8350px;
+        width: 70%;
+        right: 10%;
+        left: auto;
+      }
+      .fifth-look-4 {
+        margin-top: 8650px;
+        width: 60%;
+      }
+      .video-5 {
+        margin-top: 8630px;
+      }
+
+      .h3-final {
+        margin-top: 9030px;
+      }
+
+      .all-looks {
+        margin-top: 8870px;
+
+      }
+      .video-end-runway {
+        margin-top: 9617px;
+      }
 
 }
 
@@ -868,6 +1373,121 @@ h4 {
     margin-left: 90.1%;
   }
 
-/* Header */
+  .first-look .first-look-1 {
+    width: 70%;
+  }
+  .first-look .first-look-2 {
+    width: 70%;
+    margin-top: 835px;
+  }
+  .first-look .first-look-3 {
+    width: 70%;
+  }
+
+/* second look */
+  .pink{
+    top: 2700px;
+  }
+  .second-look {
+    top: -560px;
+  }
+  .second-look-1 {
+    left: 10%;
+    width: 80%;
+  }
+  .second-look-2 {
+    left: 20%;
+    width: 60%;
+  }
+  .second-look-3 {
+    left: 10%;
+    width: 80%;
+  }
+
+
+
+  .third-look .third-look-background {
+    margin-top: 3750px;
+  }
+
+  .third-look .third-look-1 {
+    margin-top: 4300px;
+    width: 70%;
+    z-index: 3;
+  }
+  .third-look .third-look-2 {
+    margin-top: 3900px;
+    width: 70%;
+  }
+  .third-look .third-look-3 {
+    margin-top: 4700px;
+    width: 70%;
+  }
+  .video-3 {
+    margin-top: 5270px;
+  }
+
+  .fourth-look-1 {
+    margin-top: 6130px;
+    width: 43%;
+    left: 5%;
+  }
+  .fourth-look-2 {
+    margin-top: 5920px;
+    width: 43%;
+    left: 5%;
+  }
+  .fourth-look-3 {
+    margin-top: 6300px;
+    width: 43%;
+    right: 5%;
+    left: auto;
+  }
+  .fourth-look-4 {
+    margin-top: 6030px;
+    width: 43%;
+    right: 5%;
+  }
+  .video-4 {
+    margin-top: 6700px;
+  }
+
+  .fifth-look .fifth-look-background {
+    margin-top: 6880px;
+  }
+  .fifth-look-1 {
+    margin-top: 7250px;
+    width: 60%;
+  }
+  .fifth-look-2 {
+    margin-top: 7500px;
+    width: 60%;
+    left: 10%;
+  }
+  .fifth-look-3 {
+    margin-top: 8050px;
+    width: 70%;
+    right: 10%;
+    left: auto;
+  }
+  .fifth-look-4 {
+    margin-top: 8450px;
+    width: 60%;
+  }
+  .video-5 {
+    margin-top: 8430px;
+  }
+
+  .h3-final {
+    margin-top: 8930px;
+  }
+
+  .all-looks {
+    margin-top: 8670px;
+
+  }
+  .video-end-runway {
+    margin-top: 9417px;
+  }
 
 }
