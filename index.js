@@ -4,10 +4,6 @@ $(document).ready(function(){
 // init ScrollMagic Controller
 var controller = new ScrollMagic.Controller();
 
-
-
-
-
 // OPENING SECTION //
 var tween = new TimelineMax ()
 	.add([
@@ -27,9 +23,6 @@ var tween = new TimelineMax ()
 	var scene1 = new ScrollMagic.Scene({triggerElement: "header", triggerHook: 0, duration: 6000})
 					.setTween(tween)
 					.addTo(controller);
-
-
-
 
 
 
